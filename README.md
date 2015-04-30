@@ -5,7 +5,8 @@ Creating a simple API in golang that will return info about movies
 #Spec
 - GET /films/list?with="<actor name>"&on="[array of suppliers]"&in="<locale>"
     
-    RETURNS:
+RETURNS:
+```
     [
     	{
     		movie_id: string
@@ -17,6 +18,7 @@ Creating a simple API in golang that will return info about movies
     	...
     	}
     ]
+```
 
 - GET /film/detail/<movie_id>
 
