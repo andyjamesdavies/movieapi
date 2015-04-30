@@ -26,6 +26,7 @@ RETURNS:
 1. Install docker
 	- Mac OSX: https://docs.docker.com/installation/mac/
 2. Run: ./buildscripts/setup.sh
+3. Open url 'http:// [boot2docker ip] :8000' in your browser
 
 #TODO:
 - Create a simple API interface
