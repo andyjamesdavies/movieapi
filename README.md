@@ -3,26 +3,22 @@
 Creating a simple API in golang that will return info about movies
 
 #Spec
-- GET /films/list
-	?with="<actor name>"
-	&on="[array of suppliers]"
-	&in="<locale>"
-	
-	RETURNS:
-	[
-		{
-			movie_id: string
-			movie_name: string
-			movie_artwork: string
-			movie_rating: string
-		},
-		{
-		...
-		}
-	]
+- GET /films/list?with="<actor name>"&on="[array of suppliers]"&in="<locale>"
+    
+    RETURNS:
+    [
+    	{
+    		movie_id: string
+    		movie_name: string
+    		movie_artwork: string
+    		movie_rating: string
+    	},
+    	{
+    	...
+    	}
+    ]
 
-- GET /film/detail
-	?id="<movie_id>"
+- GET /film/detail/<movie_id>
 
 #Setup
 1. Install docker
