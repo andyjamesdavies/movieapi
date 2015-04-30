@@ -3,7 +3,7 @@
 Creating a simple API in golang that will return info about movies
 
 #Spec
-- GET /films/list?with="<actor name>"&on="[array of suppliers]"&in="<locale>"
+*GET /films/list?with="ACTOR_NAME"&on="[ARR_OF_SUPPLIERS]"&in="LOCATION"*
     
 RETURNS:
 ```
@@ -20,7 +20,7 @@ RETURNS:
     ]
 ```
 
-- GET /film/detail/<movie_id>
+*GET /film/detail/[movie_id]*
 
 #Setup
 1. Install docker
