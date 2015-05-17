@@ -1,0 +1,12 @@
+{
+    "url": "",
+    "collections": [
+        {
+            "name": "out",
+            "query": "$('.movie .listing')",
+            "fields": {
+                "name": "find('.title a').text()"
+            }
+        }
+    ]
+}
