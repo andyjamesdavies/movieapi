@@ -1,1 +1,5 @@
 .settings
+.DS_store
+
+*/data
+*/recipes/seedData.json
